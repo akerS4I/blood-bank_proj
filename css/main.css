@@ -1,0 +1,28 @@
+@import url(./nav-bar.css);
+@import url(./fonts.css);
+@import url(./main-page.css);
+@import url(./sign-up.css);
+@import url(./sign-in.css);
+@import url(./side-bar.css);
+@import url(./aboutUS.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "bion-bold";
+  background-color: black;
+  /* background: rgb(255, 0, 0);
+  background: linear-gradient(180deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgb(138, 0, 0) 100%);
+      padding-bottom: 30px; */
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <title>sign-up</title>
+</head>
+
+<body>
+  <div class="decoration_parent">
+    <div class="decoration_circles"></div>
+    <div class="decoration_circles"></div>
+    <div class="decoration_circles"></div>
+  </div>
+  <div class="sign_up_page">
+
+    <!-- header -->
+    <div class="sign_up_heading">Регистрация</div>
+
+    <!-- registraiton form -->
+    <div class="sign_up_items ">Фaмилия Имя Отчество</div>
+    <input type="text" id="name" placeholder="Введите имя" />
+    <div class="sign_up_items">Ник</div>
+    <input type="text" id="nikname" placeholder="Введите Ник" />
+    <input type="checkbox" class="recepient-check">
+    <div class="sign_up_items">Возраст</div>
+    <input type="number" id="age" placeholder="Введите свой возраст" />
+    <div class="sign_up_items">Состояние здоровья</div>
+    <input type="text" id="health" placeholder="Введите Состояние своего здоровья" />
+    <div class="sign_up_items">Группа крови</div>
+    <input type="text" class="blood" placeholder="Введите группу крови">
+
+    <!-- gender selection  -->
+    <div class="gender_buttons">
+      <button class="gender">Male</button>
+      <button class="gender">Female</button>
+    </div>
+    <button class="btn_confirm">Зарегестрироваться</button>
+  </div>
+
+  <script src="js/sign-up.js"></script>
+</body>
+
+</html>
